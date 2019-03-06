@@ -165,9 +165,15 @@ Aandachtspunten bij troubleshooting:
 Informatie over ACPaaS engines, API's en toepassingen vind je op onderstaande plaatsen: 
 
 API store: https://api-store.antwerpen.be/ -> API documentatie van alle Digipolis API's
+
 Github: https://github.com/digipolisantwerp -> technische specificaties, API requirements API design and patterns etc. 
+
 ACPaaS portaal: https://acpaas.digipolis.be -> Businessdocumentatie over ACPaaS componenten
+
 ACPaaS wiki: https://wiki.digipolis.be/ACPAAS/ -> Onderhoudsdocumentatie over ACPaaS componenten
+
 ITvanAtotZ wiki: https://wiki.digipolis.be/itvanatotz -> Functionele en technische documentatie over toepassingen
+
 Bitbucket: Technische documentatie van diverse projecten en [ALM documentatie (over docker, bamboo, deploys etc.)](https://bitbucket.antwerpen.be/projects/PLAT/repos/documentation/browse)
+
 
