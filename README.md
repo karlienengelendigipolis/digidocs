@@ -1,8 +1,10 @@
 # Best practices Digipolis
 
-Doel: Best practices en lessons learned uit de praktijk delen in de organisatie.
-Doelgroep: developers van projectteams, business architecten en applicatiearchitecten.
-Voeg gerust nieuwe best practices toe middels een pull request.
+**Doel:** Best practices en lessons learned uit de praktijk delen in de organisatie.
+
+**Doelgroep:** developers van projectteams, business architecten en applicatiearchitecten.
+
+**Communitywerking:** Voeg gerust nieuwe best practices toe middels een pull request.
 
 *In de titels wordt aangegeven welk onderdeel must do/verplicht (V) of should do/optioneel (O) is.*
 
