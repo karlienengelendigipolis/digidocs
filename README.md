@@ -1,3 +1,33 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Best practices Digipolis](#best-practices-digipolis)
+  - [Inhoudstabel](#inhoudstabel)
+  - [Document historiek](#document-historiek)
+  - [Gebruik het Splunk Dashboard voor troubleshooting (V)](#gebruik-het-splunk-dashboard-voor-troubleshooting-v)
+  - [Stel liveness en readiness probes in (V)](#stel-liveness-en-readiness-probes-in-v)
+  - [Kies bewust wat er wel en niet gelogd wordt (V)](#kies-bewust-wat-er-wel-en-niet-gelogd-wordt-v)
+  - [Implementatie van health checks (V)](#implementatie-van-health-checks-v)
+    - [Enkele tips bij het implementeren van health checks](#enkele-tips-bij-het-implementeren-van-health-checks)
+  - [Upgrade naar de laatste versie van gebruikte technologieeën (V)](#upgrade-naar-de-laatste-versie-van-gebruikte-technologiee%C3%ABn-v)
+  - [Overweeg het gebruik van toolboxen in applicaties (V)](#overweeg-het-gebruik-van-toolboxen-in-applicaties-v)
+  - [Analyseer thread starvation (V)](#analyseer-thread-starvation-v)
+  - [Maak gebruik van HTTP client factory (V)](#maak-gebruik-van-http-client-factory-v)
+  - [Zorg voor continue execution door headers read (V)](#zorg-voor-continue-execution-door-headers-read-v)
+  - [Code quality control (V)](#code-quality-control-v)
+  - [Controleer de (technische) afspraken uit QG1 en 2 (V)](#controleer-de-technische-afspraken-uit-qg1-en-2-v)
+  - [Voorzie een HTTP response time mee in de logging (O)](#voorzie-een-http-response-time-mee-in-de-logging-o)
+  - [Vergroot de performantie bij serialiseren en deserialiseren (UTF8JSON) (O)](#vergroot-de-performantie-bij-serialiseren-en-deserialiseren-utf8json-o)
+  - [Gebruik streams ivm memory en performantie (O)](#gebruik-streams-ivm-memory-en-performantie-o)
+  - [Weeg de keus voor asynchrone werking af (O)](#weeg-de-keus-voor-asynchrone-werking-af-o)
+  - [Bouw retry's in bij het aanspreken van onderliggende componenten (O)](#bouw-retrys-in-bij-het-aanspreken-van-onderliggende-componenten-o)
+  - [Gebruik de aanbevolen docker images (O)](#gebruik-de-aanbevolen-docker-images-o)
+  - [Gebruik het stappenplan voor troubleshooting (O)](#gebruik-het-stappenplan-voor-troubleshooting-o)
+- [Nuttige links](#nuttige-links)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Best practices Digipolis
 
 **Doel:** Best practices en lessons learned uit de praktijk delen in de organisatie.
